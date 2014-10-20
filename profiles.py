@@ -1,5 +1,6 @@
 from api import vkapi as vk
 from collections import Iterable
+
 import re, json, random, csv
 from pathlib import Path
 
@@ -19,13 +20,13 @@ def profiles(ids, fields = fields):
 def randprofs(count = 100, splitBy = 100, filterDeact = True):
     if not splitBy: splitBy = 2**32
     result = []
+    selected = set()
     while len(result) < count:
         pack = min(count - len(result), splitBy)
         if not silent:
             print("getting another chunk of records... ", end = "")
             before = len(result)
-        ids = [str(random.randint(1,10000000)) for i in range(pack)]
-        
+        ids = set(str(random.randint(1,10000000)) for i in range(pack)).difference(selected)        
         profs = None
         while not profs:
             try:
@@ -34,6 +35,7 @@ def randprofs(count = 100, splitBy = 100, filterDeact = True):
             
         if filterDeact: profs = (p for p in profs if "deactivated" not in p)
         result.extend(profs)
+        selected.update(p["id"] for p in profs)
         if not silent:
             print(str(len(result)-before) + "records get")
     return result
