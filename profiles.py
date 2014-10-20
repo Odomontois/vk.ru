@@ -26,7 +26,7 @@ def randprofs(count = 100, splitBy = 100, filterDeact = True):
         if not silent:
             print("getting another chunk of records... ", end = "")
             before = len(result)
-        ids = set(str(random.randint(1,10000000)) for i in range(pack)).difference(selected)        
+        ids = set(str(random.randint(1,10000000)) for i in range(pack)).difference(selected)
         profs = None
         while not profs:
             try:
@@ -35,7 +35,7 @@ def randprofs(count = 100, splitBy = 100, filterDeact = True):
             
         if filterDeact: profs = [p for p in profs if "deactivated" not in p]
         result.extend(profs)
-        selected.update(p["id"] for p in profs)
+        selected.update(str(p["id"]) for p in profs)
         if not silent:
             print(str(len(result)-before) + "records get")
     return result
