@@ -1,0 +1,434 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"NO",
+				"NodeColor"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"rb",
+				"rbtValue"
+			],
+			[
+				"rbt",
+				"rbtValue"
+			],
+			[
+				"rig",
+				"rightAggr"
+			],
+			[
+				"left",
+				"leftAggr"
+			],
+			[
+				"ag",
+				"aggregate"
+			],
+			[
+				"r",
+				"rbt"
+			],
+			[
+				"a",
+				"aggregate"
+			],
+			[
+				"N",
+				"Node"
+			],
+			[
+				"B",
+				"branchAggr"
+			],
+			[
+				"bra",
+				"branchAggr"
+			],
+			[
+				"tr",
+				"treeVal"
+			],
+			[
+				"mo",
+				"modified"
+			],
+			[
+				"t",
+				"transform"
+			],
+			[
+				"cons",
+				"constTF"
+			],
+			[
+				"f",
+				"fold"
+			],
+			[
+				"L",
+				"Leaf"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"d",
+				"deep"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"go",
+				"goAnother"
+			],
+			[
+				"ro",
+				"rotate"
+			],
+			[
+				"is",
+				"isTop"
+			],
+			[
+				"No",
+				"NodeColor"
+			],
+			[
+				"set",
+				"setColor"
+			],
+			[
+				"RB",
+				"RBData"
+			],
+			[
+				"ins",
+				"insert"
+			],
+			[
+				"s",
+				"show"
+			],
+			[
+				"_",
+				"_lines"
+			],
+			[
+				"mod",
+				"modified"
+			],
+			[
+				"R",
+				"RBTree"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"Rb",
+				"RBData"
+			],
+			[
+				"tre",
+				"treeZ"
+			],
+			[
+				"re",
+				"replaced"
+			],
+			[
+				"dir",
+				"direction"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/prog/projects/pure/R/dms_stat/dms_doc.txt",
+			"settings":
+			{
+				"buffer_size": 84232,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 241.0,
+		"selected_items":
+		[
+			[
+				"lipa",
+				"Package Control: List Packages"
+			],
+			[
+				"packi",
+				"Package Control: Install Package"
+			],
+			[
+				"pi",
+				"Package Control: Install Package"
+			],
+			[
+				"pr",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 549.0
+	},
+	"console":
+	{
+		"height": 190.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/prog/projects/pure/python/vk",
+		"/D/prog/projects/pure/R",
+		"/D/prog/projects/pure/R/dms_stat"
+	],
+	"file_history":
+	[
+		"/C/Users/Олег/Documents/debug.txt",
+		"/D/prog/projects/pure/python/vk/vk.csv",
+		"/D/prog/projects/pure/R/dms_doc.txt",
+		"/D/prog/projects/pure/python/vk/data.csv",
+		"/D/prog/projects/pure/python/vk/data1201-1239.json",
+		"/D/prog/projects/pure/python/vk/data901-1200.json",
+		"/D/prog/projects/pure/python/vk/data601-900.json",
+		"/D/prog/projects/pure/python/vk/data301-600.json",
+		"/D/prog/projects/pure/python/vk/data101-300.json",
+		"/D/prog/projects/pure/python/vk/data1-100.json",
+		"/D/prog/projects/pure/R/table_fields.csv",
+		"/D/prog/projects/pure/python/abap/lcl_bapi_case.abap",
+		"/D/prog/projects/pure/R/incorrect_ptdo.csv",
+		"/E/2010-14-1.sap",
+		"/D/prog/projects/pure/python/abap/vis-save_case.abap",
+		"/C/Users/Олег/Documents/9020-14-1.sap",
+		"/D/prog/projects/pure/R/t100.txt",
+		"/D/prog/projects/pure/R/t100_new.TXT",
+		"/C/Users/Олег/Documents/t100.txt",
+		"/C/Users/Олег/Documents/9020-14-1 (1).sap",
+		"/C/Users/Олег/Documents/SAP GUI Shortcut.sap",
+		"/C/Users/Олег/Documents/120.txt",
+		"/D/prog/projects/pure/python/abap/z_bapi_case_create.in",
+		"/D/prog/projects/pure/python/abap/z_bapi_case_create.out",
+		"/D/prog/projects/pure/python/abap/lcl_bapi_case.in",
+		"/D/prog/projects/pure/python/abap/lcl_bapi_case.out",
+		"/D/prog/projects/pure/haskell/rbt/rbt.hs",
+		"/C/Users/Олег/Documents/moesk/services",
+		"/C/Windows/System32/drivers/etc/services",
+		"/C/Users/Олег/Documents/moesk/hosts",
+		"/D/docs/NUGGETS/NUGG_ZFM.nugg",
+		"/D/prog/projects/pure/haskell/rbt/rbt-test.hs",
+		"/D/prog/projects/pure/haskell/rbt/tree.hs",
+		"/C/Users/Олег/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/docs/NUGGETS/NUGG_ZRCM_PTDO.nugg",
+		"/D/docs/NUGGETS/NUGG_ZRCM_PTDO_PAYM_SCHED.nugg",
+		"/D/docs/NUGGETS/NUGG_ZRCM_PTDO_ERP.nugg",
+		"/D/docs/NUGGETS/NUGG_ZRCM_PTDO_LOCA.nugg",
+		"/D/docs/NUGGETS/NUGG_ZRCM_PTDO_MVA.nugg",
+		"/C/Users/Олег/AppData/Local/Temp/Temp1_sansoop.zip/i1.sys/data_user.php",
+		"/D/prog/projects/pure/haskell/rbt/.gitignore",
+		"/D/prog/projects/pure/haskell/rbt/rbt.sublime-project",
+		"/D/prog/projects/pure/haskell/rbt/Rbt.hi",
+		"/C/Users/Олег/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" {2,}",
+			"  ",
+			"\\|",
+			"-{3,}",
+			"\\|$",
+			"^\\|",
+			"^|",
+			"|",
+			"^|",
+			"ONLI",
+			"1",
+			"ONLI",
+			"rbtCalc",
+			"rbtValue",
+			"nodeVal"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			",",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/prog/projects/pure/R/dms_stat/dms_doc.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 84232,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 379.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.haskell_sublime_load":
+	{
+		"height": 130.0
+	},
+	"project": "vk.sublime-project",
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 433.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

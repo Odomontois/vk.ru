@@ -1,0 +1,30 @@
+{
+"scope": {
+    "notify"        : true,
+    "friends"       : true,
+    "photos"        : true,
+    "audio"         : true,
+    "video"         : true,
+    "docs"          : true,
+    "notes"         : true,
+    "pages"         : true,
+    "status"        : true,
+    "offers"        : true,
+    "questions"     : true,
+    "wall"          : true,
+    "groups"        : true,
+    "messages"      : true,
+    "email"         : true,
+    "notifications" : true,
+    "stats"         : true,
+    "ads"           : true,
+    "offline"       : true
+},
+"params": {
+    "client_id"     : 4569819,
+    "redirect_uri"  : "blank.html",
+    "display"       : "page",
+    "v"             : "5.25",
+    "response_type" : "token"
+}
+}
