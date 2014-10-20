@@ -10,7 +10,7 @@ fields = set(cfg["fields"])
 sex = cfg["sex"]
 personal = cfg["personal"]
 
-silent = True
+silent = False
 
 def profiles(ids, fields = fields):
     if isinstance(fields,Iterable): fields = ",".join(fields)
@@ -33,7 +33,7 @@ def randprofs(count = 100, splitBy = 100, filterDeact = True):
                 profs = profiles(ids)
             except Exception: pass
             
-        if filterDeact: profs = (p for p in profs if "deactivated" not in p)
+        if filterDeact: profs = [p for p in profs if "deactivated" not in p]
         result.extend(profs)
         selected.update(p["id"] for p in profs)
         if not silent:
