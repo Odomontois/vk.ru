@@ -29,6 +29,10 @@
  "2": "male",
  "0": "not specified"
 },
+"id_range":{
+    "low":1,
+    "high":10000000
+},
 "personal": {
     "political":{
      "1": "Communist",

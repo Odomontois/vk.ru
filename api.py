@@ -1,12 +1,11 @@
 import vk, json, time, csv, webbrowser
 from urllib.parse import urlparse, parse_qs
 from datetime import datetime as dt
+from cfgreader import *
 
-cfg = json.load(open("cfg.json"))
-
-scope = cfg["scope"]
-params = cfg["params"]
-params["scope"] = ",".join(k for k in scope if scope[k])
+cfg = readConfig("cfg.json")
+params = cfg.params
+params["scope"] = ",".join(k for k in cfg.scope if cfg.scope[k])
 url = "https://oauth.vk.com/authorize?"+"&".join("%s=%s" % (k,params[k]) for k in params)
 
 def accessDialog():
@@ -46,24 +45,23 @@ def accessDialog():
     return (asker.url, asker.password)   
 
 def readAccess():
-    access = {}
     webbrowser.open(url)    
     (redirUrl,password) = accessDialog()
     access = parse_qs(urlparse(redirUrl).fragment)
-    access = dict((k,v[0]) for k,v in access.items())
-    access["time"] = time.time()
-    access["password"] = password
+    access = ConfigDict((k,v[0]) for k,v in access.items())
+    access.time = time.time()
+    access.password = password
     json.dump(access,open("access.json","wt"),indent = True)
     return access
 
 try:
-    access = json.load(open("access.json"))
-    if access["time"] <= time.time() - 24 * 60 * 60 : access = readAccess()
+    access = readConfig("access.json")
+    if access.time <= time.time() - 24 * 60 * 60 : access = readAccess()
 except FileNotFoundError:
     access = readAccess()    
 
-vkapi = vk.API(app_id        = cfg["params"]["client_id"],
-               user_login    = access["email"],
-               user_password = access["password"],
-               access_token  = access["access_token"])
+vkapi = vk.API(app_id        = cfg.params.client_id,
+               user_login    = access.email,
+               user_password = access.password,
+               access_token  = access.access_token)
 
