@@ -42,9 +42,9 @@ def trans(s):
 
 def flat(profile):
     res = {"id": profile.id, "sex": cfg.sex[str(profile.sex)]}
-    for name in personal:
+    for name in cfg.personal:
         if "personal" in profile and name in profile.personal:
-            res[name] = personal[name][str(profile.personal[name])]
+            res[name] = cfg.personal[name][str(profile.personal[name])]
         else: res[name] = "not specified"
     return res
 

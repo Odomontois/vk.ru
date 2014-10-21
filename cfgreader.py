@@ -7,7 +7,7 @@ class ConfigDict(UserDict):
         return configElem(self.data[name])
     def __setattr__(self,name,value):
         if name == "data": self.__dict__["data"] = value
-        self.data[name] = value
+        else: self.data[name] = value
 
 class ConfigList(UserList):
     """Config lists with for config wrapper"""
